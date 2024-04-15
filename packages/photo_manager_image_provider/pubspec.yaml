@@ -10,7 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  photo_manager: ">=2.6.0 <4.0.0"
+#  photo_manager: ">=2.6.0 <4.0.0"
+  photo_manager:
+    git:
+      url: git@github.com:flutting/flutter_photo_manager.git
+      ref: lucian2.7.0
 
 dev_dependencies:
   flutter_test:
